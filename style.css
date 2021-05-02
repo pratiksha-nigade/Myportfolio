@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@1,600&family=Jomhuria&family=Lato:ital,wght@0,400;0,900;1,300&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;     
+    overflow-x:hidden;
+    font-family: 'Lato', sans-serif;                                                                                                                                 
+}
+
+.navbar{
+    text-transform: uppercase;
+    font-size:16px;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    background: rgba(0,0,0,0.6)  !important;
+    padding:20px 0;
+
+    
+}
+.navbar-dark .navbar-nav .nav-link{
+
+    color:#fff;
+    padding-left:20px;
+}
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover{
+    color: #38f5e5;
+
+}
+
+.centered{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+
+}
+.centered h4{
+    font-size: 4em;
+    font-weight: 300;
+    color:#000;
+    font-family: monospace;
+    
+}
+.centered h1{
+    font-size: 5em;
+    font-weight: bolder;
+    color:#000;
+    font-family: 'monospace' sans-serif;
+    background-color: rgba(151, 225, 226, 0.473);
+    
+}
+.centered p{
+    font-size: 1em;
+    text-transform: uppercase;
+    font-weight: bold;
+    color:rgb(43, 40, 40);
+    font-family: 'monospace' sans-serif;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    background-color: rgba(252, 188, 223, 0.473);
+
+}
+
+/* Media query */
+@media screen and (max-width:767px) {
+
+    .navbar{
+        letter-spacing: 0.1em;
+        padding:10px 0;
+    }
+
+    .centered h4{
+        font-size: 2em;
+        position:absolute;
+        bottom: 230px;
+        
+        color:white;
+        background-color: rgba(255, 182, 193, 0.808);
+
+    }
+    
+    .centered h1{
+        font-size: 3em;
+        position: absolute;
+        bottom:100px;
+        
+        padding:0px;
+        background-color: rgba(255, 182, 193, 0.671);
+    
+        
+    }
+    .centered p{
+        background-color: rgba(255, 122, 184, 0.651);
+        visibility: hidden;
+
+    }
+
+   }
+
+   
+@media screen and (max-width:550px) {
+
+    
+    .centered{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .centered h4{
+        font-size: 10px;
+        color: #000;
+        position:absolute;
+        bottom: 250px;
+        
+    
+        
+        color:white;
+        background-color: rgba(255, 182, 193, 0.808);
+
+    }
+    
+    .centered h1{
+        font-size: 20px;
+        position: absolute;
+        bottom:200px;
+    
+        padding:0px;
+        background-color: rgba(255, 182, 193, 0.671);
+    
+        
+    }
+    
+.centered p{
+    font-size: 0.8em;
+    word-spacing: 0px;
+    letter-spacing: 0px;
+    width:40px;
+    position:sticky;
+    visibility: hidden;
+    bottom: 120px;
+
+    
+}
+#imgbg .img-fluid{
+width:200em;
+}
+
+
+#jumb{
+
+    
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+     display:inline-flexbox;
+      justify-content: center;
+      direction: column;
+       align-items: center;
+       text-align: center;
+    
+    
+       
+       
+}
+
+#jumb #btncon1{
+
+    margin-bottom: 20px;
+    width:80px;
+    font-weight: 200;
+
+}
+
+.container-fluid #copywrite{
+
+    margin-top: 220px;;
+}
+
+
+
+
+
+   }
+
+
+   /* My skill start*/
+
+   #myskills{
+       background-color: #000;
+       padding:30px;
+
+   }
+  .container-fluid #headSkill{
+    color:#fff;
+    margin-top: 50px;
+    text-shadow: 1px 1px 2px rgba(247, 126, 146, 0.411);
+    font-family: 'monospace' sans-serif;
+    font-size: 4em;
+    font-weight: bolder;
+    
+    
+          }
+
+   .card {
+    margin-left: auto;
+    margin-right: auto;
+
+
+   }
+
+ .card  #imgcard{
+       width: 100px;
+       height: 250px;
+       
+
+   }
+  .card .card-body #skilllist{
+       
+    margin-left: auto;
+    margin-right: auto;
+
+
+   }
+   #cbutton{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+
+       
+   }
+   .col{
+       margin:2em;
+   }
+
+
+   /* About Me  */
+
+   #heading{
+    
+   color:#000;
+   padding-top: 60px;
+   text-shadow: 1px 1px 2px rgba(247, 126, 146, 0.411);
+   font-family: 'monospace' sans-serif;
+   font-size: 5em;
+   font-weight: bolder;
+}
+
+.rounded-circle{
+
+    background-color: rgba(173, 162, 162, 0.034);
+    
+}
+.container h5{
+    font-size: 25px;
+    font-family: 'Verdana, Geneva, Tahoma, sans-serif' sans-serif;
+
+}
+
+
+/* contact*/
+
+#headcontact
+{
+    color:#fff;
+    padding-top: 20px;
+    text-shadow: 1px 1px 2px rgba(247, 126, 146, 0.411);
+    font-family: 'monospace' sans-serif;
+    font-size: 4em;
+    font-weight: bolder;
+    
+}
+
+#con{
+
+    
+        color: white;
+        
+      
+}
+
+#btncon{
+
+    width: 150px;
+    font-weight: bolder;
+    color:#000;
+    
+}
+
+#jumb{
+
+    
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+     display:inline-flexbox;
+      justify-content: center;
+      direction: column;
+       align-items: center;
+       text-align: center;
+       height: 500px;
+       
+       
+}
+
